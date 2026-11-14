@@ -1,0 +1,54 @@
+$ui-index-1: 1;
+$ui-index-2: 2;
+$ui-index-3: 3;
+$ui-index-4: 4;
+$ui-index-6: 6;
+
+$indent-step: 4px;
+$page-gutter: $indent-step * 4;
+$page-max-width: 460px;
+
+$duration-fast: 0.12s;
+$duration: 0.22s;
+$duration-slow: 0.42s;
+
+$ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+$ease-back-out: cubic-bezier(0.3, 1.6, 0.5, 1);
+
+$tablet: 860px;
+$mobile: 540px;
+
+$font-primary: 'Onest', system-ui, sans-serif;
+$font-display: 'Unbounded', 'Onest', sans-serif;
+
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-xl: 23px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$radius-chip: 999px;
+$radius-card: 22px;
+$radius-card-inner: 12px;
+
+$color-ink: #1f2440;
+
+$color-night: #171b3d;
+$color-night-raised: #222856;
+$color-on-night: #f3efe6;
+$color-on-night-soft: #a9add0;
+
+$color-action: #f2b632;
+$color-focus: #7fb2f5;
+
+$color-frame: #e9573f;
+$color-wall: #dcd1c0;
+$color-shade: #0d0a1c;
+$color-wind: #7fb2f5;
+$color-bubble: #fff8ec;
+
+$carriage-width: 360;
+$carriage-height: 540;
+$carriage-frame: 6px;
