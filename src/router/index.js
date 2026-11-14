@@ -18,3 +18,5 @@ export const router = createRouter({
         {path: '/:pathMatch(.*)*', redirect: {name: ROUTE_NAMES.game}},
     ],
 });
+
+export default router;

@@ -7,7 +7,7 @@
         "dev": "vite",
         "build": "vite build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d dist",
         "preview": "vite preview",
         "lint": "eslint .",
         "format": "prettier --write .",
@@ -27,6 +27,7 @@
         "vitest": "^2.1.2"
     },
     "dependencies": {
+        "@vkontakte/vk-bridge": "^3.0.2",
         "lucide-vue-next": "^0.460.0",
         "pinia": "^2.3.1",
         "vue": "^3.5.12",

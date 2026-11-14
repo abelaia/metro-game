@@ -1,9 +1,15 @@
-import {createPinia} from 'pinia';
-import {createApp} from 'vue';
-import {router} from '@/router';
+import { createApp } from 'vue'
+import { createPinia } from 'pinia'
+import App from './App.vue'
+import router from './router'
 
-import App from '@/App.vue';
+import bridge from '@vkontakte/vk-bridge';
 
-import '@/assets/styles/global.scss';
+const app = createApp(App)
 
-createApp(App).use(createPinia()).use(router).mount('#root');
+app.use(createPinia())
+app.use(router)
+
+app.mount('#root')
+
+bridge.send('VKWebAppInit').catch(() => {})
